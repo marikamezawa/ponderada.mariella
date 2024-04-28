@@ -19,18 +19,23 @@ Publicação de ideias, classificação e filtragem de ideias por categorias ou 
 ## Diagrama
 &nbsp;&nbsp;&nbsp;&nbsp; Para o diagrama da aplicação, foi pensado em quebrá-lo em duas partes: uma para a Landing Page e seus conteúdos e outra para a plataforma em si.
 ### Diagrama da Landing Page
-&nbsp;&nbsp;&nbsp;&nbsp; Abaixo, o diagrama da nossa página inicial (Landing Page):
 <div align="center" width="100%">
- <sub>Figura 1: Diagrama da Landing Page</sub><br><br>
-<img src = "assets/MVC .drawio.png " alt="image" width="80%" height="auto"></div>
+ <sub>Figura 9: Aquitetura MVC da Plataforma</sub><br>
+<img src="../assets/MVCLandingPage.png" alt="MVC Plataforma">
+<sup>Fonte: Material produzido pelos autores (2024)</sup>
+</div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp; O usuário terá acesso à interação de input somente após efetuar login e cadastro. Em todas as outras páginas, a nossa API responderá somente às solicitações GET e às chamadas de endpoint para o frontend.
 
 ### Diagrama da Plataforma
 &nbsp;&nbsp;&nbsp;&nbsp; Abaixo, o diagrama da nossa plataforma:
 <div align="center" width="100%">
- <sub>Figura 1: Diagrama da Plataforma</sub><br><br>
-<img src = "assets/MVC Plataforma.drawio.png " alt="image" width="80%" height="auto"></div>
+ <sub>Figura 9: Aquitetura MVC da Plataforma</sub><br>
+<img src="../assets/MVCPlataforma.png" alt="MVC Plataforma">
+<sup>Fonte: Material produzido pelos autores (2024)</sup>
+</div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp; Ao acessar a plataforma, o usuário terá a oportunidade de interagir com o banco de dados, desde postagens até visualizações do feed e busca por ONGs, projetos similares e pessoas com interesses semelhantes.
 
